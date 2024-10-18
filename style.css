@@ -1,0 +1,160 @@
+@font-face {
+  font-family: Paris;
+  src: url(./Fonts/HvDTrial_Pluto-CondBold-BF6486959ee76ac.otf);
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./Fonts/Duolingo.woff2);
+}
+@font-face {
+  font-family: FIFA;
+  src: url(./Fonts/HelveticaNowDisplay-Medium_2wEhlmo-TD_wsqqEEwmJC.woff2);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center;   */
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+/* #box{
+  width: 14rem;
+  height: 14rem; 
+  background-color: rgba(220, 20, 60, 0.637);
+  border-radius: 5%;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  border-top-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+}  */
+
+ /* h1{
+  font-size: 2em;
+  font-family: "Gilroy";
+  text-align: center;
+  font-weight: 900;
+  color: #11362e;
+   user-select: none; 
+} */
+
+/*h1::before{
+  content: "Cascading";
+  color: #ffffff5d;
+}
+
+h1::after{
+  content: "Sheets";
+  color: #ffffff5d;
+} */
+
+/* #circle{
+  width: 15rem;
+  height: 15rem;
+  background-color: rgba(220, 20, 60, 0.637);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+} */
+
+
+
+
+/* #box1{
+  width: 12rem;
+  height: 12rem;
+  background-color: coral;
+  border-radius: 5%;
+  margin-bottom: 1%;
+}
+
+#box2 {
+  width: 12rem;
+  height: 12rem;
+  background-color: rosybrown;
+  border-radius: 5%;
+  margin-bottom: 1%;
+}
+
+#box3{
+  width: 12rem;
+  height: 12rem;
+  border-radius: 5%;
+  background-color: slateblue;
+  margin-bottom: 1%;
+} */
+
+
+#page1{
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+#page2 {
+  width: 100%;
+  height: 100%;
+  background-color: lightgreen;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page3 {
+  width: 100%;
+  height: 100%;
+  background-color: lightsalmon;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+
+#page4 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: lightslategrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  /* color: crimson; */
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Gilroy";
+  /* background: linear-gradient(to left top, crimson, #FF8709, #138834); */
+
+  background: linear-gradient( to right top, #4285f4, #9b72cb, #d96570, #d96570,#9b72cb, #4285f4, #9b72cb, #d96570);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+::selection {
+  color: rgb(126, 98, 202);
+}
